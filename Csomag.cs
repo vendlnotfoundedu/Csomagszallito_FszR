@@ -45,7 +45,5 @@ namespace Csomagszallito_FszR
         {
             return $"[{CsomagKod}] Címzett: {Cimzett} | Súly: {SulyKg} kg | Távolság: {TavolsagKm} km | Díj: {KiszallitasiDij()} Ft";
         }
-
-        
     }
 }
